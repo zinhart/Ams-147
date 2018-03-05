@@ -1,0 +1,28 @@
+#A simply script to automate memory leak checking, this script does NOT take into account symbolic links
+if [ $# -eq 0 ]
+then
+echo -e "USAGE: $0 <some valid number list below>"
+echo -e "0: to build "
+echo -e "1: to remove build dir"
+echo -e "2. to run"
+#possible future options here
+fi
+
+
+if [[ $# -eq 1 && $1 -eq 0 ]] ; then
+  echo -e "building"
+  (mkdir -p build && cd $_ && cmake ..)
+fi
+
+
+if [[ $# -eq 1 && $1 -eq 1 ]] ; then
+  echo -e "removing build dir"
+  rm -rf build
+fi
+
+if [[ $# -eq 1 && $1 -eq 2 ]] ; then
+(cd build/logic-gates && make)
+./build/logic-gates/logic_gate
+fi
+#if $# = 3,4,5 etc
+echo -e "Written by Arom Zinhart DeGraca"

@@ -1,0 +1,3 @@
+swig -octave -c++ -o example_wrap.cxx example.i
+mv example_wrap.cxx example_wrap.cpp
+mkoctfile example.cpp example_wrap.cpp
