@@ -12,7 +12,7 @@ void showVectorVals(std::string label, std::vector<double> &v);
 void showVectorVals(std::string label, std::vector<double> &v, std::fstream &outPutFile);
 int main()
 {
-    std::string datadir = "/home/ogun/Desktop/ams147-project/logic-gates/data/";
+	std::string datadir = "training-data/";
     std::string trainingOr = datadir + "out_or.txt";
 	std::cout<<trainingOr<<"\n";
     std::string trainingOrResults = datadir +"resultsOrTraining.txt";
@@ -141,7 +141,7 @@ int main()
     std::cout<<"\nTotal correct predictions "<<correctPredictions<<"\n";
     //make input var to test
 
-  const std::string end = "`";
+  /*const std::string end = "`";
     std::string args="\0";
     while(args != end)
     {
@@ -159,7 +159,7 @@ int main()
         showVectorVals("Input: ",inputVals);
         showVectorVals("Output: ",resultVals);
         args.clear();
-    }
+    }*/
 	
     return 0;
 }
