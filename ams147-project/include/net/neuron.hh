@@ -1,15 +1,16 @@
-#pragma once
+#ifndef NEURON_HH
+#define NEURON_HH
 #include <vector>
 #include <cstdlib>
 #include <cmath>
 #include <iostream>
-class Neuron;
-typedef std::vector<Neuron> Layer;
-class Neuron
+class neuron;
+typedef std::vector<neuron> Layer;
+class neuron
 {
 public:
 	//num of connections or outputs each neuron has
-	Neuron(unsigned int numOutputs,unsigned int index);
+	neuron(unsigned int numOutputs,unsigned int index);
 	void setOutputVal(double val);
 	double getOutputVal()const;
 	void feedForward(const Layer &prevLayer);
@@ -36,3 +37,4 @@ private:
 	std::vector<Connection> outputWeights;
 	double gradient;
 };
+#endif

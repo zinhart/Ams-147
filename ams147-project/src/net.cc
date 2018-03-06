@@ -1,7 +1,12 @@
-#include "net/Net.h"
-double Net::recentAverageSmoothingFactor = 50.0; // Number of training samples to average over
-Net::Net(const std::vector<unsigned int> &topology)
+#include "net/net.hh"
+double net::recentAverageSmoothingFactor = 50.0; // Number of training samples to average over
+net::net()
 {
+}
+net::net(const std::vector<unsigned int> &topology, std::string training_data, std::string training_results)
+{
+    setTrainingData(training_data);
+	setTrainingResults(training_results);
     recentAverageError=0;
 	unsigned int numLayers = topology.size();
 	//make layers (outer loop)
@@ -16,14 +21,14 @@ Net::Net(const std::vector<unsigned int> &topology)
 		//the <= add a bias neuron
 		for (unsigned int neuronNum = 0; neuronNum <= topology[layerNum]; ++neuronNum)
 		{
-			layers.back().push_back(Neuron(numOutputs,neuronNum));
+			layers.back().push_back(neuron(numOutputs,neuronNum));
 		}
 	}
 	
 	//set bias output
 	layers.back().back().setOutputVal(1.0);
 }
-void Net::feedForward(const std::vector<double> &inputVals)
+void net::feedForward(const std::vector<double> &inputVals)
 {
 	//check to see that the number of elements in input vals is the same as the number of elements in the input layer
 	assert(inputVals.size() == layers[0].size() - 1);
@@ -43,7 +48,7 @@ void Net::feedForward(const std::vector<double> &inputVals)
 		}
 	}
 }
-void Net::backProp(const std::vector<double> &targetVals)
+void net::backProp(const std::vector<double> &targetVals)
 {
 	//responsibilities of backProp
 	/*
@@ -93,15 +98,34 @@ void Net::backProp(const std::vector<double> &targetVals)
 		}
 	}
 }
-double Net::getRecentAverageError() const 
+double net::getRecentAverageError() const 
 { 
 	return recentAverageError; 
 }
-void Net::getResults(std::vector<double> &resultsVals)const
+void net::getResults(std::vector<double> &resultsVals)const
 {
 	resultsVals.clear();
 	for (unsigned int i = 0; i < layers.back().size() - 1; ++i)
 	{
 		resultsVals.push_back(layers.back()[i].getOutputVal());
 	}
+}
+
+void net::setTrainingData(std::string training_data)
+{
+  assert(training_data.size() != 0);
+  this->training_data = training_data;
+}
+void net::setTrainingResults(std::string training_results)
+{
+  assert(training_results.size() != 0);
+  this->training_results = training_results;
+}
+std::string net::getTrainingDataFile()const
+{
+  return this->training_data;
+}
+std::string net::getTestingDataFile()const
+{
+  return this->training_results;
 }

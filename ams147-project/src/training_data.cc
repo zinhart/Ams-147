@@ -1,6 +1,6 @@
-#include "net/TrainingData.h"
+#include "net/training_data.hh"
 
-void TrainingData::getTopology(std::vector<unsigned int> &topology)
+void training_data::getTopology(std::vector<unsigned int> &topology)
 {
 	std::string line;
 	std::string label;
@@ -24,12 +24,12 @@ void TrainingData::getTopology(std::vector<unsigned int> &topology)
 	return;
 }
 
-TrainingData::TrainingData(const std::string filename)
+training_data::training_data(const std::string filename)
 {
 	trainingDataFile.open(filename.c_str());
 }
 
-unsigned int TrainingData::getNextInputs(std::vector<double> &inputVals)
+unsigned int training_data::getNextInputs(std::vector<double> &inputVals)
 {
 	inputVals.clear();
 
@@ -49,7 +49,7 @@ unsigned int TrainingData::getNextInputs(std::vector<double> &inputVals)
 	return inputVals.size();
 }
 
-unsigned int TrainingData::getTargetOutputs(std::vector<double> &targetOutputVals)
+unsigned int training_data::getTargetOutputs(std::vector<double> &targetOutputVals)
 {
 	targetOutputVals.clear();
 

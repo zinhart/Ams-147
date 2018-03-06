@@ -1,7 +1,7 @@
 set(net_src
-  Net.cpp 
-  TrainingData.cpp
-  Neuron.cpp  	
+  net.cc
+  training_data.cc
+  neuron.cc  	
 )
 
 add_library(net ${LIB_TYPE} ${net_src})

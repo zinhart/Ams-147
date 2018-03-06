@@ -1,25 +1,25 @@
-#include "net/Neuron.h"
+#include "net/neuron.hh"
 
-double Neuron::eta = 0.2; // overall net learning rate
+double neuron::eta = 0.2; // overall net learning rate
 /*	eta
 	0.0-slow learner
 	0.2-medium learner
 	1.0-reckless learner
 */
-double Neuron::alpha = 0.5; // momentum
+double neuron::alpha = 0.5; // momentum
 /*	alpha-anything between 0 and 1
 	0.0-no momentum
 	0.5 moderate momentum
 */
-void Neuron::setOutputVal(double val)
+void neuron::setOutputVal(double val)
 {
 	outputVal = val;
 }
-double Neuron::getOutputVal()const
+double neuron::getOutputVal()const
 {
 	return outputVal;
 }
-Neuron::Neuron(unsigned int numOutputs,unsigned int index)
+neuron::neuron(unsigned int numOutputs,unsigned int index)
 {
 	outputVal = 0.0;
 	for (unsigned int connection = 0; connection < numOutputs; ++connection)
@@ -30,7 +30,7 @@ Neuron::Neuron(unsigned int numOutputs,unsigned int index)
 	}
 	myIndex = index;
 }
-double Neuron::activationFunction(double x)
+double neuron::activationFunction(double x)
 {
 	// using hyperbolic tangent but any continous function works
 	//tanh - output range [-1.0 - 1.0]
@@ -42,7 +42,7 @@ double Neuron::activationFunction(double x)
 	//return (x > 0) ? x : 0;
     return tanh(x);
 }
-double Neuron::activationFunctionDerivative(double x)
+double neuron::activationFunctionDerivative(double x)
 {
     //derivative of relu
     return (x > 0) ? 1 : 0;
@@ -51,7 +51,7 @@ double Neuron::activationFunctionDerivative(double x)
     return 1.0 -(tanh(x)*tanh(x));
 }
 //sums inputs
-void Neuron::feedForward(const Layer &prevLayer)
+void neuron::feedForward(const Layer &prevLayer)
 {
 	double sum = 0.0;
 	//sum previous layers outputs which are now inputs,
@@ -61,33 +61,33 @@ void Neuron::feedForward(const Layer &prevLayer)
 		sum += prevLayer[i].getOutputVal()*prevLayer[i].outputWeights[myIndex].weight;
 	}
 	//std::cout << "sum " << sum <<" "<<std::endl;
-	outputVal = Neuron::activationFunction(sum);
+	outputVal = neuron::activationFunction(sum);
 	//std::cout << "outPutVal " << outputVal << " " << std::endl;
 }
-void Neuron::calcOutputGradients(double targetVal)
+void neuron::calcOutputGradients(double targetVal)
 {
 	double delta = targetVal - outputVal;
-	gradient = delta*Neuron::activationFunctionDerivative(outputVal);
+	gradient = delta*neuron::activationFunctionDerivative(outputVal);
 }
-void Neuron::updateInputWeights(Layer & prevLayer)
+void neuron::updateInputWeights(Layer & prevLayer)
 {
 	for (unsigned int i = 0; i < prevLayer.size(); ++i)
 	{
-		Neuron & neuron = prevLayer[i];
-		double oldDeltaweight = neuron.outputWeights[myIndex].deltaWeight;
+		neuron & n = prevLayer[i];
+		double oldDeltaweight = n.outputWeights[myIndex].deltaWeight;
 		double newDeltaWeight =
 			//individual input, magnified by the gradient and train rate:
 			eta*
-			neuron.getOutputVal()
+			n.getOutputVal()
 			*gradient
 			//also add momentum= a fraction of the previous delta weight
 			+ alpha
 			*oldDeltaweight;
-		neuron.outputWeights[myIndex].deltaWeight = newDeltaWeight;
-		neuron.outputWeights[myIndex].weight += newDeltaWeight;
+		n.outputWeights[myIndex].deltaWeight = newDeltaWeight;
+		n.outputWeights[myIndex].weight += newDeltaWeight;
 	}
 }
-double Neuron::sumDOW(const Layer & nextLayer)const
+double neuron::sumDOW(const Layer & nextLayer)const
 {
 	double sum = 0.0;
 
@@ -99,9 +99,9 @@ double Neuron::sumDOW(const Layer & nextLayer)const
 	}
 	return sum;
 }
-void Neuron::calcHiddenGradients(const Layer & nextLayer)
+void neuron::calcHiddenGradients(const Layer & nextLayer)
 {
 	double dow = sumDOW(nextLayer);
-	gradient = dow * Neuron::activationFunctionDerivative(outputVal);
+	gradient = dow * neuron::activationFunctionDerivative(outputVal);
 
 }

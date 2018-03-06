@@ -4,10 +4,10 @@
 #include <string>
 #include <sstream>
 #include <vector>
-class TrainingData
+class training_data
 {
 public:
-	TrainingData(const std::string filename);
+	training_data(const std::string filename);
     bool isEof() { return trainingDataFile.eof(); }
 	void getTopology(std::vector<unsigned int> & topology);
 	unsigned int getNextInputs(std::vector<double>&inputVals);

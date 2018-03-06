@@ -1,5 +1,5 @@
-﻿#include "net/Net.h"
-#include "net/TrainingData.h"
+﻿#include "net/net.hh"
+#include "net/training_data.hh"
 #include <fstream>
 #include <string>
 #include <sstream>
@@ -26,7 +26,7 @@ int main()
 
     std::string trainingNot = datadir + "out_no.txt";
     std::string trainingNotResults = datadir + "resultsNotTraining.txt";
-    TrainingData trainData(trainingOr);
+    training_data trainData(trainingOr);
 
     // e.g., { 3, 2, 1 }
     std::vector<unsigned int> topology;
@@ -37,7 +37,7 @@ int main()
        std::cout<<topology[i]<<" ";
     }
     std::cout<<"\n";
-    Net myNet(topology);
+    net myNet(topology, trainingOr, trainingOrResults);
 
     std::vector<double> inputVals;
     std::vector<double> targetVals;
