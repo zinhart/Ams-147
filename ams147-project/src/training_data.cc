@@ -28,7 +28,7 @@ training_data::training_data(const std::string filename)
 	training_data_file.open(filename.c_str());
 }
 
-unsigned int training_data::getNextInputs(std::vector<double> &input_vals)
+unsigned int training_data::get_next_inputs(std::vector<double> &input_vals)
 {
 	input_vals.clear();
 
@@ -48,7 +48,7 @@ unsigned int training_data::getNextInputs(std::vector<double> &input_vals)
 	return input_vals.size();
 }
 
-unsigned int training_data::getTargetOutputs(std::vector<double> &target_output_vals)
+unsigned int training_data::get_target_outputs(std::vector<double> &target_output_vals)
 {
 	target_output_vals.clear();
 

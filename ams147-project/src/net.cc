@@ -27,7 +27,12 @@ net::net(const std::vector<unsigned int> &topology, std::string training_data, s
 	}
 	
 	//set bias output
-	layers.back().back().setOutputVal(1.0);
+	layers.back().back().set_output_val(1.0);
+}
+
+void net::train(unsigned int max_iter, double epsilon)
+{
+  //to do
 }
 void net::forward_propagate(const std::vector<double> &input_vals)
 {
@@ -37,7 +42,7 @@ void net::forward_propagate(const std::vector<double> &input_vals)
 	//assign input vals to input neurons
 	for (unsigned int i = 0; i < input_vals.size(); ++i)
 	{
-		layers[0][i].setOutputVal(input_vals[i]);
+		layers[0][i].set_output_val(input_vals[i]);
 	}
 	//forward propagate
 	for (unsigned int layer_num = 1; layer_num < layers.size(); ++layer_num)
@@ -64,7 +69,7 @@ void net::backward_propagate(const std::vector<double> &target_vals)
 	error = 0.0;
 	for (unsigned int i = 0; i < output_layer.size() - 1; ++i)
 	{
-		double delta = target_vals[i] - output_layer[i].getOutputVal();
+		double delta = target_vals[i] - output_layer[i].get_output_val();
 		error += delta*delta;
 	}
 	error /= output_layer.size() - 1;
@@ -75,16 +80,16 @@ void net::backward_propagate(const std::vector<double> &target_vals)
 	//2
 	for (unsigned int i = 0; i < output_layer.size() - 1; ++i)
 	{
-		output_layer[i].calcOutputGradients(target_vals[i]);
+		output_layer[i].calc_output_gradients(target_vals[i]);
 	}
 	//3
 	for (unsigned int i = layers.size()-2; i >0; --i)
 	{
-		Layer & hidden_Layer = layers[i];
-		Layer & next_Layer = layers[i + 1];
+		Layer & hidden_layer = layers[i];
+		Layer & next_layer = layers[i + 1];
 		for (unsigned int j = 0; j < hidden_layer.size(); ++j)
 		{
-			hidden_layer[j].calcHiddenGradients(next_layer);
+			hidden_layer[j].calc_hidden_gradients(next_layer);
 		}
 		
 	}
@@ -95,20 +100,20 @@ void net::backward_propagate(const std::vector<double> &target_vals)
 		Layer & prev_layer = layers[i - 1];
 		for (unsigned int j = 0; j < layer.size()-1; ++j)
 		{
-			layer[j].updateInputWeights(prev_layer);
+			layer[j].update_input_weights(prev_layer);
 		}
 	}
 }
-double net::getRecentAverageError() const 
+double net::get_recent_average_error() const 
 { 
 	return recent_average_error; 
 }
-void net::getResults(std::vector<double> &results_vals)const
+void net::get_results(std::vector<double> &results_vals)const
 {
 	results_vals.clear();
 	for (unsigned int i = 0; i < layers.back().size() - 1; ++i)
 	{
-		results_vals.push_back(layers.back()[i].getOutputVal());
+		results_vals.push_back(layers.back()[i].get_output_val());
 	}
 }
 
@@ -122,7 +127,7 @@ void net::set_training_results(std::string training_results)
   assert(training_results.size() != 0);
   this->training_results = training_results;
 }
-std::string net::get_training_dataFile()const
+std::string net::get_training_data_file()const
 {
   return this->training_data;
 }
