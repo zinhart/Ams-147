@@ -1,0 +1,8 @@
+find_package(SWIG REQUIRED)
+find_package(Octave REQUIRED)
+include(${SWIG_USE_FILE})
+include_directories(${OCTAVE_INCLUDE_DIRS})
+include_directories(${CMAKE_CURRENT_SRC_DIR})
+set_property(SOURCE mymod.i PROPERTY CPLUSPLUS ON)
+swig_add_module(mymod octave mymod.i)
+swig_link_libraries(mymod net )

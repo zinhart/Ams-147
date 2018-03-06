@@ -2,22 +2,22 @@
 if [ $# -eq 0 ]
 then
 echo -e "USAGE: $0 <some valid number list below>"
-echo -e "0: to build "
-echo -e "1: to remove build dir"
+echo -e "0: to remove build dir"
+echo -e "1: to build "
 echo -e "2. to run"
 #possible future options here
 fi
 
 
 if [[ $# -eq 1 && $1 -eq 0 ]] ; then
-  echo -e "building"
-  (mkdir -p build && cd $_ && cmake ..)
+  echo -e "removing build dir"
+  rm -rf build
 fi
 
 
 if [[ $# -eq 1 && $1 -eq 1 ]] ; then
-  echo -e "removing build dir"
-  rm -rf build
+  echo -e "building"
+  (mkdir -p build && cd $_ && cmake ..)
 fi
 
 if [[ $# -eq 1 && $1 -eq 2 ]] ; then
