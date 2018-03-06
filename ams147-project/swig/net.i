@@ -1,4 +1,4 @@
-%module mymod
+%module Net
 %{
 #include "net/Net.h"
 %}
