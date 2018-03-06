@@ -1,11 +1,11 @@
 #include "net/training_data.hh"
 
-void training_data::getTopology(std::vector<unsigned int> &topology)
+void training_data::get_topology(std::vector<unsigned int> &topology)
 {
 	std::string line;
 	std::string label;
 
-	std::getline(trainingDataFile, line);
+	std::getline(training_data_file, line);
 	std::stringstream ss(line);
 	ss >> label;
 	std::cout<<line<<"\n";
@@ -20,51 +20,50 @@ void training_data::getTopology(std::vector<unsigned int> &topology)
 		ss >> n;
 		topology.push_back(n);
 	}
-
 	return;
 }
 
 training_data::training_data(const std::string filename)
 {
-	trainingDataFile.open(filename.c_str());
+	training_data_file.open(filename.c_str());
 }
 
-unsigned int training_data::getNextInputs(std::vector<double> &inputVals)
+unsigned int training_data::getNextInputs(std::vector<double> &input_vals)
 {
-	inputVals.clear();
+	input_vals.clear();
 
 	std::string line;
-	std::getline(trainingDataFile, line);
+	std::getline(training_data_file, line);
 	std::stringstream ss(line);
 
 	std::string label;
 	ss >> label;
 	if (label.compare("in:") == 0) {
-		double oneValue;
-		while (ss >> oneValue) {
-			inputVals.push_back(oneValue);
+		double one_value;
+		while (ss >> one_value) {
+			input_vals.push_back(one_value);
 		}
 	}
 
-	return inputVals.size();
+	return input_vals.size();
 }
 
-unsigned int training_data::getTargetOutputs(std::vector<double> &targetOutputVals)
+unsigned int training_data::getTargetOutputs(std::vector<double> &target_output_vals)
 {
-	targetOutputVals.clear();
+	target_output_vals.clear();
 
 	std::string line;
-	std::getline(trainingDataFile, line);
+	std::getline(training_data_file, line);
 	std::stringstream ss(line);
 
 	std::string label;
 	ss >> label;
 	if (label.compare("out:") == 0) {
-		double oneValue;
-		while (ss >> oneValue) {
-			targetOutputVals.push_back(oneValue);
+		double one_value;
+		while (ss >> one_value) {
+			target_output_vals.push_back(one_value);
 		}
 	}
 
-	return targetOutputVals.size();
+	return target_output_vals.size();
 }

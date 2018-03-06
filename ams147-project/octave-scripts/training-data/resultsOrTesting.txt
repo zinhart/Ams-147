@@ -1,0 +1,2000 @@
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  1 1 
+Output:  0.99993926 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+
+Input:  1 0 
+Output:  0.9996947054 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9996608397 
+Pass
+

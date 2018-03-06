@@ -11,26 +11,26 @@ double neuron::alpha = 0.5; // momentum
 	0.0-no momentum
 	0.5 moderate momentum
 */
-void neuron::setOutputVal(double val)
+void neuron::set_output_val(double val)
 {
-	outputVal = val;
+	output_val = val;
 }
-double neuron::getOutputVal()const
+double neuron::get_output_val()const
 {
-	return outputVal;
+	return output_val;
 }
 neuron::neuron(unsigned int numOutputs,unsigned int index)
 {
-	outputVal = 0.0;
+	output_val = 0.0;
 	for (unsigned int connection = 0; connection < numOutputs; ++connection)
 	{
-		outputWeights.push_back(Connection());
+		output_weights.push_back(Connection());
 		//set weight of connection just made to something random
-		outputWeights.back().weight = randomWeight();
+		output_weights.back().weight = random_weight();
 	}
-	myIndex = index;
+	my_index = index;
 }
-double neuron::activationFunction(double x)
+double neuron::activation_function(double x)
 {
 	// using hyperbolic tangent but any continous function works
 	//tanh - output range [-1.0 - 1.0]
@@ -42,7 +42,7 @@ double neuron::activationFunction(double x)
 	//return (x > 0) ? x : 0;
     return tanh(x);
 }
-double neuron::activationFunctionDerivative(double x)
+double neuron::activation_function_derivative(double x)
 {
     //derivative of relu
     return (x > 0) ? 1 : 0;
@@ -51,57 +51,56 @@ double neuron::activationFunctionDerivative(double x)
     return 1.0 -(tanh(x)*tanh(x));
 }
 //sums inputs
-void neuron::feedForward(const Layer &prevLayer)
+void neuron::forward_propagate(const Layer & prev_layer)
 {
 	double sum = 0.0;
 	//sum previous layers outputs which are now inputs,
 	//includes the bias node for the previous layer
-	for (unsigned i = 0; i < prevLayer.size(); ++i)
+	for (unsigned i = 0; i < prev_layer.size(); ++i)
 	{
-		sum += prevLayer[i].getOutputVal()*prevLayer[i].outputWeights[myIndex].weight;
+		sum += prev_layer[i].get_output_val() * prev_layer[i].output_weights[my_index].weight;
 	}
 	//std::cout << "sum " << sum <<" "<<std::endl;
-	outputVal = neuron::activationFunction(sum);
-	//std::cout << "outPutVal " << outputVal << " " << std::endl;
+	output_val = neuron::activation_function(sum);
+	//std::cout << "outPutVal " << output_val << " " << std::endl;
 }
-void neuron::calcOutputGradients(double targetVal)
+void neuron::calc_output_gradients(double target_val)
 {
-	double delta = targetVal - outputVal;
-	gradient = delta*neuron::activationFunctionDerivative(outputVal);
+	double delta = target_val - output_val;
+	gradient = delta * neuron::activation_function_derivative(output_val);
 }
-void neuron::updateInputWeights(Layer & prevLayer)
+void neuron::update_input_weights(Layer & prev_layer)
 {
-	for (unsigned int i = 0; i < prevLayer.size(); ++i)
+	for (unsigned int i = 0; i < prev_layer.size(); ++i)
 	{
-		neuron & n = prevLayer[i];
-		double oldDeltaweight = n.outputWeights[myIndex].deltaWeight;
-		double newDeltaWeight =
+		neuron & n = prev_layer[i];
+		double old_delta_weight = n.output_weights[my_index].delta_weight;
+		double new_delta_weight =
 			//individual input, magnified by the gradient and train rate:
 			eta*
-			n.getOutputVal()
+			n.get_output_val()
 			*gradient
 			//also add momentum= a fraction of the previous delta weight
 			+ alpha
-			*oldDeltaweight;
-		n.outputWeights[myIndex].deltaWeight = newDeltaWeight;
-		n.outputWeights[myIndex].weight += newDeltaWeight;
+			*old_delta_weight;
+		n.output_weights[my_index].delta_weight = new_delta_weight;
+		n.output_weights[my_index].weight += new_delta_weight;
 	}
 }
-double neuron::sumDOW(const Layer & nextLayer)const
+double neuron::sum_DOW(const Layer & next_layer)const
 {
 	double sum = 0.0;
 
 	// sum out contributions of the errors at the nodes we feed,
 	// not including bias neuron
-	for (unsigned int i = 0; i < nextLayer.size() - 1; ++i)
+	for (unsigned int i = 0; i < next_layer.size() - 1; ++i)
 	{
-		sum += outputWeights[i].weight * nextLayer[i].gradient;
+		sum += output_weights[i].weight * next_layer[i].gradient;
 	}
 	return sum;
 }
-void neuron::calcHiddenGradients(const Layer & nextLayer)
+void neuron::calc_hidden_gradients(const Layer & next_layer)
 {
-	double dow = sumDOW(nextLayer);
-	gradient = dow * neuron::activationFunctionDerivative(outputVal);
-
+	double dow = sum_DOW(next_layer);
+	gradient = dow * neuron::activation_function_derivative(output_val);
 }
