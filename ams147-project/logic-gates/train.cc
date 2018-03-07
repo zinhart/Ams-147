@@ -10,6 +10,7 @@
 #include <math.h>
 void show_vector_vals(std::string label, std::vector<double> &v);
 void show_vector_vals(std::string label, std::vector<double> &v, std::fstream &output_file);
+using namespace zinhart;
 int main()
 {
 	std::string data_dir = "training-data/";
