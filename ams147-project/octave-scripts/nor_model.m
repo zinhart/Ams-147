@@ -1,5 +1,5 @@
 %dependecies in order control signal communications all for randint
-function retval = model( network_topology, max_iters, tolerance, validation_cases)
+function retval = nor_model(network_topology, max_iters, tolerance, validation_cases)
   zinhart; % load module
   pkg load communications;% for randint
   total_layers = length(network_topology);
@@ -36,7 +36,7 @@ function retval = model( network_topology, max_iters, tolerance, validation_case
       input_t = [input_t inputs(ith_input)];
     endfor
     for ith_target = 1: output_layer_size
-      targets(ith_target .- 1) = logical_or(input_t); %get target for specific input
+      targets(ith_target .- 1) = logical_nor(input_t); %get target for specific input
     endfor
     ann.forward_propagate(inputs);% trial with current weights
     ann.get_results(outputs);
@@ -68,7 +68,7 @@ function retval = model( network_topology, max_iters, tolerance, validation_case
       input_t = [input_t inputs(ith_input)];
     endfor
     for ith_target = 1: output_layer_size
-      targets(ith_target .- 1) = logical_or(input_t); %get target for specific input
+      targets(ith_target .- 1) = logical_nor(input_t); %get target for specific input
     endfor
     ann.forward_propagate(inputs);% trial with current weights
     ann.get_results(outputs);
@@ -86,7 +86,7 @@ function retval = model( network_topology, max_iters, tolerance, validation_case
   axis equal;
   total_training_iterations = linspace(0, length(train_error), length(train_error) );
   plot(total_training_iterations,train_error ); %error wrt iterations
-  title("Figure 1: Learning The Or Gate Training");
+  title("Figure 1: Learning The NOR Gate Training");
   xlabel("Iteration");
   ylabel("Training Error");
   printf("total_training_iterations:%i\n",length(train_error)+1);
@@ -96,7 +96,7 @@ function retval = model( network_topology, max_iters, tolerance, validation_case
   hold on;
   accuracy = linspace(0, 1, length(target_val));
   plot(output_val, target_val);
-  title("Figure 2: Learning The Or Gate Validation");
+  title("Figure 2: Learning The NOR Gate Decision Boundary");
   xlabel("Model Output");
   ylabel("Target Value");
   hold off;

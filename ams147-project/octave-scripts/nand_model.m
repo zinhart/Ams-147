@@ -1,5 +1,5 @@
 %dependecies in order control signal communications all for randint
-function retval = model( network_topology, max_iters, tolerance, validation_cases)
+function retval = nand_model( network_topology, max_iters, tolerance, validation_cases)
   zinhart; % load module
   pkg load communications;% for randint
   total_layers = length(network_topology);
@@ -36,7 +36,7 @@ function retval = model( network_topology, max_iters, tolerance, validation_case
       input_t = [input_t inputs(ith_input)];
     endfor
     for ith_target = 1: output_layer_size
-      targets(ith_target .- 1) = logical_or(input_t); %get target for specific input
+      targets(ith_target .- 1) = logical_nand(input_t); %get target for specific input
     endfor
     ann.forward_propagate(inputs);% trial with current weights
     ann.get_results(outputs);
@@ -68,7 +68,7 @@ function retval = model( network_topology, max_iters, tolerance, validation_case
       input_t = [input_t inputs(ith_input)];
     endfor
     for ith_target = 1: output_layer_size
-      targets(ith_target .- 1) = logical_or(input_t); %get target for specific input
+      targets(ith_target .- 1) = logical_nand(input_t); %get target for specific input
     endfor
     ann.forward_propagate(inputs);% trial with current weights
     ann.get_results(outputs);
