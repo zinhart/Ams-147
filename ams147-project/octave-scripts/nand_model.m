@@ -86,7 +86,7 @@ function retval = nand_model( network_topology, max_iters, tolerance, validation
   axis equal;
   total_training_iterations = linspace(0, length(train_error), length(train_error) );
   plot(total_training_iterations,train_error ); %error wrt iterations
-  title("Figure 1: Learning The Or Gate Training");
+  title("Figure 1: Learning The NAND Gate Training");
   xlabel("Iteration");
   ylabel("Training Error");
   printf("total_training_iterations:%i\n",length(train_error)+1);
@@ -96,7 +96,7 @@ function retval = nand_model( network_topology, max_iters, tolerance, validation
   hold on;
   accuracy = linspace(0, 1, length(target_val));
   plot(output_val, target_val);
-  title("Figure 2: Learning The Or Gate Validation");
+  title("Figure 2: Learning The NAND Gate Validation");
   xlabel("Model Output");
   ylabel("Target Value");
   hold off;

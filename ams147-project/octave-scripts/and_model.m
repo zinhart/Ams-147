@@ -1,5 +1,5 @@
 %dependecies in order control signal communications all for randint
-%[2,5,1] 2000, 1.e-15, 400
+%[2,9,1],2000, 0.0000001,400
 function retval = and_model(network_topology, max_iters, tolerance, validation_cases)
   zinhart; % load module
   pkg load communications;% for randint
