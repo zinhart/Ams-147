@@ -1,5 +1,5 @@
 %dependecies in order control signal communications all for randint
-function retval = model( network_topology, max_iters, epsilon)
+function retval = model( network_topology, max_iters, tolerance, validation_cases)
   zinhart; % load module
   pkg load communications;% for randint
   total_layers = length(network_topology);
@@ -22,10 +22,13 @@ function retval = model( network_topology, max_iters, epsilon)
   inputs =  zinhart.vec_d(input_layer_size, 0);
   outputs = zinhart.vec_d(output_layer_size, 0);
   targets =  zinhart.vec_d(output_layer_size, 0);  
-  error = [];
+  train_error = [];
   %karma lloyd banks
   %ja rule down as chick
-  for current_iter = 1 : max_iters  %training loop begin
+  total_training_iterations = 0;
+  current_iter = 1;
+  while current_iter < max_iters
+  %for current_iter = 1 : max_iters  %training loop begin
     input_t = [];
     for ith_input = 0 : input_layer_size - 1
       inputs(ith_input) = randint(1); %get random inputs in the input domain
@@ -37,29 +40,49 @@ function retval = model( network_topology, max_iters, epsilon)
     ann.forward_propagate(inputs);% trial with current weights
     ann.get_results(outputs);
     ann.backward_propagate(targets);% update weight
-    error = [error ann.get_recent_average_error()];
-    
-    %disp(inputs(0));
-    %disp(inputs(1));
-    disp(input_t);
-    disp(targets(0));
-    disp(outputs(0));
-    disp(error);
-  endfor
+    ++current_iter;
+    total_training_iterations (end+1) = current_iter;
+    train_error (end+1) = ann.get_recent_average_error();
+    if ( train_error(end) <= tolerance )
+        break;
+    endif
+  endwhile
+ 
+  disp("finish training");
   
-%{
-  %calc accuracy etc
+  inputs =  zinhart.vec_d(input_layer_size, 0);
+  outputs = zinhart.vec_d(output_layer_size, 0);
+  targets =  zinhart.vec_d(output_layer_size, 0); 
+  
+  
+  correct_cases = 0;
+  test_error = [];
+  printf("beggining validation phase\n");
+  for i = 1 : validation_cases % validation loop
+    input_t = [];
+    for ith_input = 0 : input_layer_size - 1
+      inputs(ith_input) = randint(1); %get random inputs in the input domain
+      input_t = [input_t inputs(ith_input)];
+    endfor
+    for ith_target = 1: output_layer_size
+      targets(ith_target .- 1) = logical_or(input_t); %get target for specific input
+    endfor
+    ann.forward_propagate(inputs);% trial with current weights
+    ann.get_results(outputs);
+    test_error = [test_error ann.get_recent_average_error()];
+    if (test_error(i) - outputs(0) <= tolerance)
+        ++correct_cases;
+    endif
+  endfor
+  printf("correct cases %i\n",correct_cases);
+  printf("total training iterations %i\n", current_iter);
+  x = linspace(0, 100, length(train_error) );
+  plot(x,train_error);
 
   %graph accuracy
 %}
   
-  testing_results = zinhart.zstring("training_data/resultOrTesting.txt");  
-  %disp(ann.get_training_data_file());
-  %disp(ann.get_testing_data_file());
-%done 
-   bagel = zinhart.vec_d([1,2,3]);
-  # bagel = [1,2,3];
-
+ 
 clear zinhart; 
 clear classes;
 pkg unload communications;
