@@ -1,197 +1,217 @@
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
+Pass
+
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
+Pass
+
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
+Input:  1 1 
+Output:  0.9998826509 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
+Pass
+
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -202,16 +222,16 @@ Input:  0 0
 Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -219,163 +239,167 @@ Output:  0
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
+Input:  1 0 
+Output:  0.9991052481 
+Pass
+
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -387,23 +411,31 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -411,87 +443,83 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
-Pass
-
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
@@ -499,23 +527,31 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -526,148 +562,168 @@ Input:  0 0
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
+Input:  1 0 
+Output:  0.9991052481 
+Pass
+
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
+Pass
+
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -675,51 +731,47 @@ Output:  0
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -727,19 +779,23 @@ Output:  0
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -747,119 +803,127 @@ Output:  0
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
 Input:  0 0 
 Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
+Pass
+
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -867,19 +931,11 @@ Output:  0
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -887,39 +943,31 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -934,48 +982,36 @@ Input:  0 0
 Output:  0 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
-Pass
-
-Input:  0 0 
-Output:  0 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
@@ -983,15 +1019,11 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -1000,14 +1032,6 @@ Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
 Pass
 
 Input:  0 0 
@@ -1018,144 +1042,104 @@ Input:  0 0
 Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -1163,87 +1147,103 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
+Input:  0 0 
+Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
@@ -1251,19 +1251,19 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -1275,195 +1275,183 @@ Output:  0
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  0 0 
-Output:  0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
+Pass
+
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
+Input:  1 0 
+Output:  0.9991052481 
+Pass
+
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  0 0 
-Output:  0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
@@ -1475,83 +1463,83 @@ Output:  0
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -1559,47 +1547,35 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
-Pass
-
-Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
-Pass
-
-Input:  1 1 
-Output:  0.99993926 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
@@ -1607,115 +1583,131 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
+Input:  0 1 
+Output:  0.9989400916 
+Pass
+
+Input:  0 0 
+Output:  0 
+Pass
+
 Input:  0 0 
 Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
@@ -1723,143 +1715,147 @@ Output:  0
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
-Pass
-
-Input:  0 0 
-Output:  0 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
+Input:  0 0 
+Output:  0 
+Pass
+
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 0 
@@ -1867,67 +1863,75 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
+Pass
+
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 0 
+Output:  0 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 0 
+Output:  0.9991052481 
+Pass
+
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
 Input:  0 0 
@@ -1935,59 +1939,55 @@ Output:  0
 Pass
 
 Input:  1 1 
-Output:  0.99993926 
-Pass
-
-Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9998826509 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 0 
-Output:  0.9996947054 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  0 1 
-Output:  0.9996608397 
+Input:  1 1 
+Output:  0.9998826509 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  1 0 
+Output:  0.9991052481 
 Pass
 
 Input:  0 0 
 Output:  0 
 Pass
 
-Input:  1 1 
-Output:  0.99993926 
+Input:  0 0 
+Output:  0 
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 
 Input:  1 0 
-Output:  0.9996947054 
+Output:  0.9991052481 
 Pass
 
-Input:  0 0 
-Output:  0 
+Input:  0 1 
+Output:  0.9989400916 
 Pass
 
 Input:  0 0 
@@ -1995,6 +1995,6 @@ Output:  0
 Pass
 
 Input:  0 1 
-Output:  0.9996608397 
+Output:  0.9989400916 
 Pass
 

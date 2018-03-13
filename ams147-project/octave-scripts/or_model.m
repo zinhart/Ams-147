@@ -82,7 +82,7 @@ function retval = or_model(network_topology, max_iters, tolerance, validation_ca
     %endif
   endwhile
   
-  figure(1);
+  fig1 = figure(1);
   
   axis equal;
   total_training_iterations = linspace(0, length(train_error), length(train_error) );
@@ -92,16 +92,21 @@ function retval = or_model(network_topology, max_iters, tolerance, validation_ca
   ylabel("Training Error");
   printf("total_training_iterations:%i\n",length(train_error)+1);
   printf("training_error:%d\n",train_error(end));
+  saveas(1, "or_training_error_plot.png" );
   
-  figure(2);
+  fig2 = figure(2);
   hold on;
   accuracy = linspace(0, 1, length(target_val));
   plot(output_val, target_val);
   title("Figure 2: Learning The OR Gate Decision Boundary");
   xlabel("Model Output");
   ylabel("Target Value");
+  saveas(2, "or_decision_plot.png" );
+  
   hold off;
   clear zinhart; 
   clear classes;
+  
+
   pkg unload communications;
 endfunction

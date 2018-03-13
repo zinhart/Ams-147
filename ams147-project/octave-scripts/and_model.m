@@ -1,5 +1,5 @@
 %dependecies in order control signal communications all for randint
-%[2,9,1],2000, 0.0000001,400
+%[2,6,1],2000, 0.0000001,400
 function retval = and_model(network_topology, max_iters, tolerance, validation_cases)
   zinhart; % load module
   pkg load communications;% for randint
@@ -92,6 +92,7 @@ function retval = and_model(network_topology, max_iters, tolerance, validation_c
   ylabel("Training Error");
   printf("total_training_iterations:%i\n",length(train_error)+1);
   printf("training_error:%d\n",train_error(end));
+  saveas(1, "and_training_error_plot.png" );
   
   figure(2);
   hold on;
@@ -100,6 +101,7 @@ function retval = and_model(network_topology, max_iters, tolerance, validation_c
   title("Figure 2: Learning The AND Gate Decision Boundary");
   xlabel("Model Output");
   ylabel("Target Value");
+  saveas(2, "and_decision_plot.png" );
   hold off;
   clear zinhart; 
   clear classes;
